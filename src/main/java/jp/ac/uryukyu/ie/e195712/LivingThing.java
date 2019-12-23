@@ -31,6 +31,12 @@ public class LivingThing {
     }
 
     //boolean型のgetterはgetではなくisがつく
+
+    /**
+     * メソッド。deadが保存している結果(trueかfalse)をゲットする。
+     * boolean型のgetter。
+     * @return true or false
+     */
     public boolean isDead() { return dead; }
     public void setDead( boolean dead ) {this.dead =dead;}
 
